@@ -1,0 +1,582 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-color: rgb(226, 240, 253);
+    margin: 0;
+}
+
+.search {
+    background-color: rgb(226, 240, 253);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search img {
+    align-items: flex-start;
+    height: 45%;
+    margin: 1%;
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+    background: #a0c2c8;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.search input::placeholder {
+    color:  rgb(25, 95, 215);
+    padding: 20px;
+    font-size: 12px;
+    }
+
+.search button {
+    display: flex;
+    position: absolute;
+    height: 15px;
+    left: 1015px;
+    transform: translateX(100%);
+    z-index: 2; 
+    top: 32px;
+    background-color: rgb(28, 61, 180);
+    border: none;
+    outline: none;
+}
+
+.filtrado {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.filtrado a {
+    color: 28, 187, 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: small;
+    color:rgb(0, 34, 206);
+}
+
+
+/*Productos*/
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    grid-gap: 30px;
+    margin: 3%;
+    margin-left: 4%;
+}
+
+.Dolexforte {
+    background-color: rgb(15, 202, 235);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Dolexforte img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.Dolexforte h2 {
+    color:rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Dolexforte h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Dolexforte p {
+    color: rgb(46, 86, 139);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Dolexforte h5 {
+    color: rgb(58, 104, 229);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Dolexforte a {
+    color: rgb(182, 234, 255);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+/*Medicamento */
+
+.Medicamento {
+    background-color: rgb(26, 133, 215);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Medicamento img {
+width: 170px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.Medicamento h2 {
+    color:rgb(235, 255, 238);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Medicamento h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Medicamento p {
+    color: rgb(234, 242, 245);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Medicamento h5 {
+    color: rgb(31, 103, 176);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Medicamento a {
+    color: rgb(235, 255, 238);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+/* LabialNivea*/
+
+.LabialNivea {
+    background-color: rgb(130, 171, 248);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.LabialNivea img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.LabialNivea h2 {
+    color:rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.LabialNivea h3 {
+    color: rgb(47, 26, 26);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.LabialNivea p {
+    color: rgb(18, 44, 149);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.LabialNivea h5 {
+    color: rgb(53, 166, 211);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.LabialNivea a {
+    color: rgb(71, 88, 161);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+
+/*Protectorsolar*/
+
+.Protectorsolar {
+    background-color: rgb(51, 125, 204);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Protectorsolar img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.Protectorsolar h2 {
+    color:rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Protectorsolar h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Protectorsolar p {
+    color: rgb(253, 253, 253);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Protectorsolar h5 {
+    color: rgb(245, 245, 245);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.Protectorsolar a {
+    color: rgb(235, 255, 238);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    text-decoration: none;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+
+/*BabyDove*/
+.BabyDove {
+    background-color: rgb(15, 236, 252);
+    width: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.BabyDove img {
+width: 200px;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.BabyDove h2 {
+    color:rgb(67, 138, 220);
+    margin-bottom: 0px;
+    margin-top: 1%;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.BabyDove h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.BabyDove p {
+    color: rgb(15, 72, 77);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.BabyDove h5 {
+    color: rgb(6, 101, 159);
+    font-size: small;
+    margin: 10px;
+    margin-bottom: 0px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.BabyDove a {
+    color: rgb(25, 89, 216);
+    font-size: small;
+    font-weight: 800;
+    margin-bottom: 55px;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 1%;
+    margin-top: 7%;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+/* OTRA COSA  */
+.filtroboton {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    margin: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .filtroboton input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bacfd8;
+    transition: 0.4s;
+    border-radius: 34px;
+    margin: 0%;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 2.8px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0%;
+  }
+
+.filtro1 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6%;
+    width: 180px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.filtro1 h5 {
+    margin: 2%;
+    font-size: 11px;
+    color: rgb(33, 147, 234);
+}
+
+.filtroboton2 {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    margin: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .filtroboton2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bff0ff;
+    transition: 0.4s;
+    border-radius: 34px;
+    margin: 0%;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 4px;
+    bottom: 2.8px;
+    background-color: rgb(163, 233, 254);
+    border-radius: 50%;
+    margin: 0%;
+  }
+
+.filtro2 {
+    display: flex;
+    align-items: center;
+    background-color: #9dedff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6%;
+    width: 180px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    height: 30px;
+    border-radius: 4px;
+
+}
+
+.filtro2 h5 {
+    font-size: 11px;
+    color: rgb(2, 54, 196);
+}
+
+.filtros h2 {
+    font-weight: 600;
+    font-size: small;
+    color: rgb(12, 155, 203);
+}
+
+.filtros a {
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(26, 35, 154);
+}
+
+.filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3%;
+    width: 190px;
+    background-color: rgb(212, 238, 255);
+    margin-left: 3%;
+    border-radius: 3%;
+
+}
+
+.filtros h3 {
+    margin-bottom: 1%;
+    font-size: larger;
+    color: rgb(37, 139, 222);
+}
+
+.filtros h4 {
+    margin-bottom: 3%;
+    margin-top: 0%;
+    font-weight: 100;
+    font-size: small;
+    color: rgb(32, 26, 154);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
